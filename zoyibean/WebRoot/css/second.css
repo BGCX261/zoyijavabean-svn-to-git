@@ -1,0 +1,84 @@
+/*组织个人主页样式*/
+<!--
+a {text-decoration:none; color:#000}
+a:hover {text-decoration:underline}
+#zuzhi_logo {width:153px; height:120px; margin:20px auto; text-align:center; color:#264401}
+#fast_con {width:140px; height:25px; line-height:25px; text-align:center; margin:5px auto}
+.button {width:140px; height:26px; background:url(../images/button_bg.gif) left top no-repeat; margin:5px auto; text-align:center; line-height:26px}
+.button a {color:#fff}
+.button a:hover {color:#000; text-decoration:none}
+#enterbtn {width:940px; height:40px; text-align:right; margin:10px auto 30px;}
+
+#info {width:202px; height:auto; border:1px solid #6CAF24; background-color:#fff; margin:0 auto}
+#image {width:202px; height:292px; margin:0 auto;}
+#myphoto, #otherphoto {width:180px;  height:30px; line-height:30px;}
+#myphoto, #otherphoto a {color:#355d04; font-size:13px; font-weight:bold; padding:5px; margin:0 5px; border:1px solid #C6EC95; background-color:#fff}
+
+#myphoto, #otherphoto a:hover {background-color:#DDFFB3; text-decoration:none}
+#edit {width:180px; height:20px; line-height:20px; margin:5px auto 0; border-bottom:1px solid #cdf49b; border-top:1px solid #cdf49b; text-align:left}
+#edit a {color:#355d04; font-size:13px}
+#decorate {width:180px; height:20px; line-height:20px; border-bottom:1px solid #cdf49b; text-align:left; margin-bottom:5px}
+#decorate a {color:#355d04; font-size:13px}
+#info_detail {width:180px; height:70px; color:#71953e; text-align:left; padding:11px; background-color:#e2ffbf; font-size:13px}
+#info_detail span {color:#365e05}
+
+#photo_album { width:202px; height:175px; border:1px solid #6CAF24; background-color:#fff; font-size:13px; margin:10px auto; text-align:left}
+#album_title {width:202px; height:25px; background-color:#ecffd2; line-height:25px; text-indent:15px}
+#album_title a {color:#365e05; margin-left:60px}
+#album_pic {width:87px; height:90px; border:1px solid #C4E39D; margin:12px 6px 6px; float:left}
+#album_con {width:87px; margin:0 7px;float:left; color:#9bc66c}
+#album_con a {color:#72a631; font-weight:bold}
+
+#share { width:202px; height:520px; border:1px solid #6CAF24; background-color:#fff; font-size:13px; margin:0 auto; text-align:left; color:#999; font-size:12px}
+#share_title {width:202px; height:25px; background-color:#ecffd2; line-height:25px; text-indent:15px; color:#000}
+#share_title a {color:#365e05; margin-left:90px}
+#share #title {color:#3A5E07}
+
+#head {width:500px; height:auto; margin:0 auto; text-align:left; font-size:13px}
+#mynamebig {font-size:16px; font-weight:bold;}
+#time {color:#878787}
+#head a {color:#025EA9}
+#certificate { width:400px; height:20px; text-align:left; margin:10px auto}
+#negtive { width:400px; height:20px; text-align:left; margin:10px auto}
+#toprank { width:400px; height:20px; text-align:left; margin:10px auto}
+#zuzhiicon { width:400px; height:20px; text-align:left; margin:10px auto 30px}
+#personalnav {width:538px; height:32px; margin:10px auto}
+#xinxian {width:540px; height:auto; border-bottom:1px solid #defeb2}
+#states { width:430px; margin:5px auto; text-align:left;}
+#myname {color:#467ed3}
+#timedetail { width:430px; margin:5px auto; color:#999; height:20px; text-align:left; line-height:20px}
+#reply {width:420px; height:25px; line-height:25px; margin:10px auto; text-align:left; background-color:#cce8cf; border:5px solid #ebf0f4;}
+#message {width:510px; height:150px; margin:5px auto; background-color:#F1FEE0; font-size:12px}
+#msghead {width:510px; height:25px; background:url(../images/msghead.gif) left top no-repeat; line-height:25px; text-align:right; font-weight:bold; margin-bottom:10px}
+#msghead a {color:#345e0a; margin-right:10px}
+#message textarea {width:490px; height:70px; border:1px solid #84AC53; background-color:#C6EE95; overflow:hidden; margin:0 auto}
+#message #msgbtn {height:24px; line-height:24px;}
+#message table a {color:#375E05;}
+#message span {color:#537e24; font-weight:bold}
+#msgboard {width:450px; height:45px; text-align:left; border-bottom:1px solid #ccf49b; margin-bottom:20px}
+.msgtime {color:#94bc66}
+#huifu {border-bottom:1px solid #ccf49b; color:#365e05; text-align:center; width:50px}
+
+#glory {width:200px; height:230px; border:1px solid #6CAF24; background-color:#fff; font-size:13px; margin:0 auto; text-align:left}
+#glory_title {width:200px; height:25px; background-color:#ecffd2; line-height:25px; text-indent:15px}
+#visitors, #maybeknow, #newest {width:200px; height:200px; border:1px solid #6CAF24; background-color:#fff; font-size:13px; margin:0 auto; text-align:left; margin:10px auto}
+#visitors, #maybeknow, #newest a:hover {text-decoration:none}
+#visitors_title, #maybeknow_title, #newest_title {width:200px; height:25px; background-color:#ecffd2; line-height:25px; text-indent:15px}
+#friends {width:200px; height:620px; border:1px solid #6CAF24; background-color:#fff; font-size:13px; margin:0 auto; text-align:left}
+#friends a:hover {text-decoration:none}
+#friends_title {width:200px; height:25px; background-color:#ecffd2; line-height:25px; text-indent:15px}
+#invite { width:180px; height:20px; margin:10px; text-align:right; line-height:20px}
+#invite a {color:#385E09}
+
+#apply {width:200px; height:400px; border:1px solid #6CAF24; background-color:#fff; font-size:13px; margin:0 auto; text-align:left}
+#apply_title {width:200px; height:25px; background-color:#ecffd2; line-height:25px; text-indent:15px; font-weight:bold}
+#apply_share, #log, #apply_photo, #apply_state, #apply_msg { width:180px; height:20px; text-align:left; line-height:20px; margin:10px auto; text-indent:25px}
+#apply_share { background:url(../images/share.jpg) left top no-repeat;}
+#log{ background:url(../images/log.jpg) left top no-repeat;}
+#apply_photo{ background:url(../images/photo.jpg) left top no-repeat;}
+#apply_state{ background:url(../images/state.jpg) left top no-repeat;}
+#apply_msg{ background:url(../images/msg.jpg) left top no-repeat;}
+#ads { text-align:center; margin:10px auto}
+
+
+-->

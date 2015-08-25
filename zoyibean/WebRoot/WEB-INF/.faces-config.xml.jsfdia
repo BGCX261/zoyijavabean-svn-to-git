@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:*" PATH="*" SHAPE="32,32,53,170" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:*:0" NAME="item" PATH="*" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="index::#index.jsp" NAME="output3"
+    PATH="/index.jsp" SHAPE="84,64,152,64,152,56,343,56"
+    TARGET="rules:#index.jsp" TITLE="index" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="user_login::#user_login.jsp" NAME="output4"
+    PATH="/user_login.jsp" TARGET="rules:#user_login.jsp"
+    TITLE="user_login" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="fail::#fail.jsp" NAME="output1"
+    PATH="/fail.jsp" TARGET="rules:#fail.jsp" TITLE="fail" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="suc::#suc.jsp" NAME="output" PATH="/suc.jsp"
+    TARGET="rules:#suc.jsp" TITLE="suc" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="success::#suc.jsp" NAME="output2"
+    PATH="/suc.jsp" TARGET="rules:#suc.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="logout::#logout.jsp" NAME="output5"
+    PATH="/logout.jsp" TARGET="rules:#logout.jsp" TITLE="logout" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="admin_modify_announcement::#admin_modify_announcement.jsp"
+    NAME="output6" PATH="/admin_modify_announcement.jsp"
+    TARGET="rules:#admin_modify_announcement.jsp"
+    TITLE="admin_modify_announcement" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="admin_manage_announcement::#admin_manage_announcement.jsp"
+    NAME="output7" PATH="/admin_manage_announcement.jsp"
+    TARGET="rules:#admin_manage_announcement.jsp"
+    TITLE="admin_manage_announcement" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="news_content::#news_content.jsp"
+    NAME="output8" PATH="/news_content.jsp"
+    TARGET="rules:#news_content.jsp" TITLE="news_content" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="announcement_content::#announcement_content.jsp" NAME="output9"
+    PATH="/announcement_content.jsp"
+    TARGET="rules:#announcement_content.jsp"
+    TITLE="announcement_content" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="group_self_modify::#group_self_modify.jsp"
+    NAME="output10" PATH="/group_self_modify.jsp"
+    TARGET="rules:#group_self_modify.jsp" TITLE="group_self_modify" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="admin_modify_news::#admin_modify_news.jsp"
+    NAME="output11" PATH="/admin_modify_news.jsp"
+    TARGET="rules:#admin_modify_news.jsp" TITLE="admin_modify_news" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#index.jsp" PATH="/index.jsp"
+  SHAPE="344,48,50,25" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#group_self_modify.jsp"
+  PATH="/group_self_modify.jsp" SHAPE="352,408,50,25"
+  model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#admin_modify_news.jsp"
+  PATH="/admin_modify_news.jsp" SHAPE="352,448,50,25"
+  model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#news_content.jsp" PATH="/news_content.jsp"
+  SHAPE="344,304,50,25" model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#logout.jsp" PATH="/logout.jsp"
+  SHAPE="344,200,50,25" model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#suc.jsp" PATH="/suc.jsp"
+  SHAPE="344,168,50,25" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#announcement_content.jsp"
+  PATH="/announcement_content.jsp" SHAPE="352,360,50,25"
+  model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#admin_manage_announcement.jsp"
+  PATH="/admin_manage_announcement.jsp" SHAPE="344,264,50,25"
+  model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#fail.jsp" PATH="/fail.jsp"
+  SHAPE="344,120,50,25" model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#admin_modify_announcement.jsp"
+  PATH="/admin_modify_announcement.jsp" SHAPE="344,232,50,25" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#user_login.jsp" PATH="/user_login.jsp"
+  SHAPE="344,80,50,25" model-entity="JSFProcessGroup"/>
+</PROCESS>

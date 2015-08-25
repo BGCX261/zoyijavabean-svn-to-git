@@ -1,0 +1,71 @@
+/*������ʽ*/
+<!--
+html>body *{ margin:0 auto;}
+body {text-align:center; margin:0 auto; width:1000px; background:url(../images/back.gif); padding:0; font-size:14px}
+a img {border:none}
+#logo {height:127px; width:950px;}
+#menu { margin:0 auto; padding:0; padding-left:10px; list-style-type:none; width:950px; height:60px; position:relative; display:block; font-size:13px; font-weight:bold; background:url(../images/nav.png) left top no-repeat;}
+#menu li {display:block; float:left; margin:0}
+#menu li a{ float:left; color:#fff; text-decoration:none; padding:10px 0; width:120px; background:url(../images/bg1.png) left top no-repeat; height:40px}
+#menu li a:hover{ text-decoration:underline}
+#menu li a.current {color:#000; background:url(../images/bg2.png) left top no-repeat}
+#menu .assistnav a {font-weight:normal; font-size:12px; background:none; width:auto; padding:10px 5px;}
+.location { width:980px; margin:5px 25px; font-size:14px; text-align:left;}
+#photos {width:740px; height:290px; margin:5px; background:url(../images/photos_bg.jpg) 50% top no-repeat}
+#login {width:220px; height:290px; margin:5px; border:2px solid #a9e385; background:#fff; text-align:left}
+#login img { margin:10px 5px}
+#login_con{ width:180px; height:70px; margin:10px auto; color:#608156;}
+#welcome {width:203px; height:100px; background:url(../images/welcome.gif) 50% top no-repeat; text-indent:5px; line-height:1.5em}
+#user_info { width:192px; height:25px; font-size:13px; margin:5px auto; line-height:1.5em; line-height:25px}
+#exit {width:40px; height:25px; line-height:25px; text-align:center; border:1px solid #a9e385; margin:0 10px; float:right}
+#guide {width:740px; height:300px; margin:5px; background:url(../images/guide_bg.jpg) 50% top no-repeat}
+#annoucement {width:220px; height:300px; margin:5px; border:1px solid #d3d1d3; background:#fff url(../images/laba.gif) 90% 15% no-repeat; float:right}
+#annouce_bg {width:218px; height:28px; background:url(../images/annouce_bg.gif) 50% top no-repeat; font-size:14px; color:#999; line-height:28px; text-indent:30px; font-weight:bold}
+#annouce_bg a{color:#000; text-decoration:none; margin-left:90px; font-weight:normal}
+#annouce_bg a:hover {text-decoration:underline; color:#F90}
+.annouce_con {text-align:left; font-size:13px; }
+.annouce_con li{ list-style:square; font-size:13px; margin:5px;}
+.annouce_con a{ color:#000; text-decoration:none}
+.annouce_con a:hover { color:#F90; text-decoration:underline}
+#activity {width:730px; height:215px; margin:5px; border:1px solid #a5cf72; background:#fff;}
+#active_bg { width:730px; height:30px; background:url(../images/active_bg.gif) left top no-repeat}
+#rank {width:220px; height:215px; margin:5px; background:url(../images/rank_bg.jpg) 50% top no-repeat; text-align:left}
+#rank li {list-style:none; margin-left:-39px}
+#rank li a{margin-left:60px; color:#000; text-decoration:none}
+#rank li a:hover { color:#f90; text-decoration:underline}
+.title { width:200px ; height:20px; padding:10px 10px 5px; color:#566a3e; font-weight:bold; line-height:20px}
+.title a{ color:#000; text-decoration:none; font-weight:normal}
+.title a:hover {color:#f90; text-decoration:none}
+#news {width:730px; height:215px; margin:5px; border:1px solid #a5cf72; background:#fff}
+#news_bg { width:730px; height:30px; background:url(../images/news_bg.gif) 50% top no-repeat}
+#user_bg {width:480px; height:200px; margin:5px; background:url(../images/user_bg.gif) 50% top no-repeat}
+#organ_bg {width:480px; height:200px; margin:5px; background:url(../images/organ_bg.gif) 50% top no-repeat}
+#league {width:960px; height:35px; background:#049b3e; text-align:left; text-indent:20px; font-size:15px; font-weight:bold; color:#fff; line-height:35px}
+#community {width:960px; height:30px; text-align:left; text-indent:30px; color:#000; line-height:30px}
+#league_con { width:1002px; height:30px; text-align:left; line-height:30px; font-size:13px; font-weight:bold; border-bottom:1px solid #eaeaea; border-top:1px solid #eaeaea}
+#league_con a {color:#000; text-decoration:none; margin:4px}
+#league_con a:hover {color:#f90; text-decoration:underline}
+
+#hr {width:935px; margin:5px 15px 5px 28px}
+#footer {height:120px; width:981px; text-align:center; color:#000; font-size:12px; line-height:20px  }
+#footer a {color:#000; text-decoration:none}
+#footer a:hover { color:#f90; text-decoration:underline;}
+#footer_con {padding:8px 0 0;}
+.login { width:100px; height:16px; border:1px solid #C0D2A8; margin:2px}
+#logintd {text-align:center; padding-top:55px; background:url(../images/denglu.png) 50% 5% no-repeat}
+#logintd img {margin:10px 4px; padding:0}
+#logintd a {text-decoration:underline; color:#0679E4; font-size:12px;}
+#registertd {text-align:left; padding:45px 25px 15px; height:120px; background:url(../images/denglu_bg.gif) 50% 5% no-repeat}
+#applytd {text-align:left; padding:45px 25px 15px; height:120px; background:url(../images/shenqing.gif) 50% 5% no-repeat}
+#registertd span {width:100px}
+#registertd span a {font-size:14px; color:#000; margin:0 20px 0 10px}
+.errorinfo {height:auto; color:#F00; font-size:12px; text-align:left; margin:0 2px}
+#logintd div{height:20px; line-height:20px; margin:5px}
+#registertd div {margin:5px 0}
+#logintd #panel {width:180px; height:auto; margin:10px auto}
+#registertd #panel {width:200px; height:auto; margin:10px auto}
+#registertd {background:url(../images/zhuce_bg.gif) 50% 5% no-repeat}
+#earth {width:200px; height:228px; background:url(../images/earth.gif) left top no-repeat; padding:200px 0 0 22px; margin:5px; color:#fff; font-weight:bold; line-height:2em; text-align:left}
+
+
+-->

@@ -1,0 +1,109 @@
+/*�༭ҳ����ʽ*/
+<!--
+a { text-decoration:none; color:#000}
+a:hover {text-decoration:underline}
+
+#apply_label { height:35px; background:url(../images/apply_label.gif) left 50% no-repeat;}
+#search { width:153px; height:22px;background:url(../images/search.gif) left top no-repeat; margin:0 auto; text-align:left}
+#search input {width:130px; height:22px; border:none; background:none}
+#page {text-align:right; font-size:12px; margin:0 10px 0 auto}
+#page a {margin:3px}
+.applys {color:#6e963d; font-size:12px}
+#apply_fenlei {width:152px; height:244px; background:url(../images/apply_fenlei.png) left top no-repeat; margin:0px auto;}
+
+#invitefriends {width:200px; height:20px; margin:10px auto 10px 10px; text-indent:30px; line-height:20px; font-weight:bold}
+.invite_title {width:900px; height:; margin:5px auto; margin-top:20px; text-align:left}
+.invite_con {width:900px; height:250px; border:1px solid #adc78d; text-align:left;}
+#copy {margin:20px auto 10px 30px; font-size:15px; font-weight:bold}
+#links { color:#436b12; width:820px; margin:10px 30px; padding:5px; border:1px solid #83ab52}
+#textfield1 {width:200px; height:15px}
+
+#zhanneixin_label { height:40px; background:url(../images/zhanneixin_label.gif) left 50% no-repeat;}
+#write_btn { width:107px; height:30px; margin:0 10px 0 auto}
+#tishixujia {width:800px; height:auto; padding:5px; text-align:left}
+#sendletter a {width:70px; height:25px; border:1px solid #c6ee95; padding:3px}
+#sendletter a:hover { text-decoration:none; background-color:#fff}
+#select_con { width:800px; color:#547c23; height:20px; line-height:20px; font-size:12px; font-weight:bold; text-align:left; border-bottom:1px solid #c5d5b2; padding:5px 0; text-indent:10px}
+#select_con a {color:#9dba79; margin:2px 5px; font-weight:normal}
+#select_con select {width:50px;}
+#number { width:800px; text-align:left; border-bottom:1px solid #c5d5b2; padding:5px 0; text-indent:10px} 
+#total {margin-right:650px}
+#letters {width:800px; padding:5px 0; border-bottom:1px solid #c5d5b2; margin:10px 0}
+
+#privacy_title { text-align:left; font-size:15px; font-weight:bold; padding:5px; border-bottom:1px solid #d3e1c2; margin:10px 0}
+.info_con {color:#658d34; font-size:12px; font-weight:bold;}
+#select { width:290px}
+
+#searchfri {width:140px; height:20px; line-height:20px; border:1px solid #b4dc83; margin:0 5px; background:none}
+#friendfenzu {width:563px; height:37px; background:url(../images/friendfenzu_bg.gif) left top no-repeat}
+.editfriends {width:140px; height:25px; line-height:25px; padding:2px; margin:5px auto; border-bottom:1px solid #c8f097; font-size:12px; text-align:left; text-indent:10px}
+.frimember {font-size:12px; width:500px; height:70px; border-bottom:1px solid #e3eef8; margin:5px auto; text-align:left}
+.friname {font-weight:bold; color:#005dcc; margin:10px}
+.miaoshu { margin:10px;}
+
+.info_banner { width:85px; height:20px; float:left; line-height:20px; font-size:12px; background-color:#E9FCCF; border:1px solid #8BA274; border-bottom:none; border-right:none}
+.info_banner + .current {background-color:#5AA202}
+.info_banner + .current a{ color:#fff}
+#info_edit {width:802px; height:auto; border-top:1px solid #C4D7AA; background-color:#EFF5E7;}
+#edit_shuoming {width:770px; height:60px; margin:15px; font-size:12px; line-height:60px; background-color:#FFF; border:1px solid #d8ecc0}
+.edit_contain {width:425px; height:75px; background-color:#fff; border:1px solid #C0D2A8; margin-bottom:15px; overflow:hidden}
+.edit_title {font-size:12px; font-weight:bold; color:#596C3F; padding-top:5px;}
+
+#activelist_bg {width:730px; height:567px; margin:9px auto; background:url(../images/activelist_bg.gif) 50% top no-repeat; padding-top:50px}
+#active_recommend {width:730px; height:250px; margin:10px auto; background:url(../images/active_recommend.gif) 50% top no-repeat}
+.active_container {width:220px; height:290px; background-color:#fff; border:1px solid #7bc41f; margin:10px auto 5px 0;}
+.con_title { width:220px; height:30px; line-height:30px; background-color:#ECFFD2; color:#88BF40; font-weight:bold; text-indent:10px; text-align:left}
+.table1 {border-collapse:collapse; font-size:12px; text-align:left}
+.table1 td {border:#B6BCAE 1px solid;}
+
+#active_intro {width:730px; height:806px; padding-top:50px; margin:10px auto; background:url(../images/active_intro.gif) 50% top no-repeat}
+
+#zuzhifenlei_bg {width:150px; height:33px; background:url(../images/zuzhifenlei_bg.gif) left top no-repeat; line-height:33px; margin:8px auto 15px}
+#zuzhifenlei_bg +ul { font-size:12px; text-align:left; margin-left:30px}
+#zuzhifenlei_bg +ul li {margin:5px 0; list-style:square}
+#zuzhifenzu_bg {width:563px; height:38px; background:url(../images/liebiaolan.gif) left top no-repeat; line-height:38px; margin:5px auto}
+
+#newsclassify {width:140px; height:540px; border:1px solid #7DBF1F; background-color:#f6ffff; margin:5px auto}
+#classify_title {width:140px; height:30px; line-height:30px; background-color:#D9F6B4; text-align:left; text-indent:10px; font-weight:bold; color:#76BD1F}
+#newslist {width:572px; height:584px; margin:5px auto; background:url(../images/newslist_bg.gif) left top no-repeat; padding-top:50px}
+.table2 {font-size:12px; border-collapse:collapse}
+.table2 td, .table2 th {border:1px solid #aaa}
+.table2 th {background-color:#D8FEF0}
+
+
+#newscon_bg {width:728px; height:807px; background:url(../images/newscon_bg.gif) left top no-repeat; padding-top:50px; margin:9px auto}
+.newscon_title {width:224px; height:30px; line-height:30px; background-color:#CBEC9D; color:#76AA2C; font-weight:bold; text-indent:10px; text-align:left; margin-bottom:20px}
+#guanzhu, #newstop{width:224px; height:280px; text-align:left; background-color:#fff; border:1px solid #6EB126; margin:10px auto}
+#guanzhu p {line-height:2em}
+#guanzhu a {padding:10px 20px}
+#newstop {height:350px;}
+#newstitle {width:600px; height:30px; line-height:30px; font-size:16px;}
+#newstime {width:500px; height:20px; line-height:20px; font-size:12px; margin:20px auto}
+#newstime span {margin:0 15px}
+#newscon {width:600px; height:740px; font-size:12px; text-align:left; text-indent:2em;}
+#newscon p {line-height:1.2em}
+
+.table3 { font-size:12px;; border-collapse:collapse; text-align:left}
+.table3 td { border:1px solid #000}
+.leftnav1 { width:170px; height:22px; line-height:25px; background:url(../images/leftnav_bg.jpg) left top no-repeat; text-align:left; text-indent:20px; font-weight:bold; color:#fff; font-size:14px}
+.leftnav1 a { color:#fff}
+.leftnav2 { width:170px; height:22px; line-height:22px; background:url(../images/leftnav_bg2.jpg) left top no-repeat; text-align:left; text-indent:30px; font-size:13px}
+.tdtitle {border-bottom:1px solid #d3e1c2; font-size:12px; font-weight:bold}
+.tdtitle a {font-weight:normal}
+.tdcon { height:20px; line-height:20px; margin:5px; font-size:12px; color:#3c640b; text-align:left}
+.tdcon span {margin:0 30px}
+#tishi {width:510px; height:300px; margin:5px 15px; text-align:left; float:left}
+#tishi2 {width:510px; height: 1500px; margin:5px 15px; text-align:left; float:left}
+#tishi a {color:#00c; text-decoration:underline}
+#duiying_con { width:126px; height:28px; line-height:28px; color:#fff; font-size:13px; font-weight:bold; background:url(../images/duiying_bg.jpg) left top no-repeat; margin:0 30px; float:left}
+#duiyingxinxi {height:auto; width:750px; background:#fff url(../images/duiying2.gif) repeat-x left top; border:1px solid #11BF28; margin:0 20px; font-size:12px; text-align:left; float:left; padding-bottom:20px}
+#duiyingxinxi p { margin:5px auto 5px 10px}
+#duiyingxinxi p a {padding:5px}
+#duiyingxinxi table {text-align:center}
+#duiyingxinxi .thead {border-bottom:1px solid #ccc}
+#credit th { font-weight:normal;background-color:#f8f8f8}
+#credit { border-collapse:collapse;}
+#credit td, #credit th {border:#d7d7d7 1px solid;}
+
+-->
+

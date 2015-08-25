@@ -1,0 +1,129 @@
+<!-- /* Reset style */
+* {
+	margin: 0;
+	padding: 0;
+	word-break: break-all;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 1em;
+}
+
+
+ul,li {
+	list-style: none;
+}
+
+fieldset,img {
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+em,strong,cite,th {
+	font-style: normal;
+	font-weight: normal;
+}
+
+input,textarea,select,button {
+	font: 12px Helvetica, Arial, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+html {
+	overflow: -moz-scrollbars-vertical;
+}  /*Always show Firefox scrollbar*/ /* iFocus style */
+#ifocus, #ifocus2 {
+	width: 525px;
+	height: 245px;
+	margin: 30px 55px 0;
+	float:left
+}
+#ifocus{margin-left:0}
+#ifocus2 {width:100px; margin-right:0}
+#ifocus_pic, #ifocus2_pic {
+	display: inline;
+	position: relative;
+	float: left;
+	width: 410px;
+	height: 225px;
+	overflow: hidden;
+	margin: 10px 0 0 10px;
+}
+#ifocus2_pic {visibility:hidden}
+#ifocus_piclist, #ifocus2_piclist {
+	position: absolute;
+}
+
+#ifocus_piclist li, #ifocus2_piclist li {
+	width: 410px;
+	height: 225px;
+	overflow: hidden;
+}
+
+#ifocus_piclist img, #ifocus2_piclist img {
+	width: 410px;
+	height: 225px;
+}
+
+#ifocus_btn, #ifocus2_btn {
+	display: inline;
+	float: right;
+	width: 91px;
+	margin: 9px 9px 0 0;
+}
+#ifocus2_btn { float:left; margin:9px}
+
+#ifocus_btn li,#ifocus2_btn li {
+	width: 91px;
+	height: 57px;
+	cursor: pointer;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity =   50);
+}
+
+#ifocus_btn img, #ifocus2_btn img {
+	width: 75px;
+	height: 45px;
+	margin: 7px 0 0 0;
+}
+#ifocus2_btn img {margin: 7px 5px 0 0;}
+#ifocus_btn .current, #ifocus2_btn .current {
+	background: url(../images/ifocus_btn_bg.gif) no-repeat;
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity =   100);
+}
+#ifocus2_btn .current {
+	background: url(../images/ifocus_btn_bg2.gif) no-repeat;
+}
+#ifocus_opdiv, #ifocus2_opdiv {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 410px;
+	height: 35px;
+	background: #000;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity =   50);
+}
+
+#ifocus_tx, #ifocus2_tx  {
+	position: absolute;
+	left: 8px;
+	bottom: 8px;
+	color: #FFF;
+}
+
+#ifocus_tx .normal, #ifocus2_tx .normal {
+	display: none;
+}
+//-->
